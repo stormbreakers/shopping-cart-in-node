@@ -1,0 +1,36 @@
+{
+  "name": "shopping_cart",
+  "version": "1.0.0",
+  "description": "shopping cart",
+  "main": "server.js",
+  "scripts": {
+    "preinstall": "",
+    "postinstall": "",
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "shopping cart"
+  ],
+  "author": "joy",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.14.1",
+    "express": "4.13.3",
+    "foreman": "1.4.1",
+    "jsonwebtoken": "5.4.1",
+    "mongoose": "4.2.9",
+    "morgan": "1.6.1"
+  },
+  "devDependencies": {
+    "gulp": "3.9.0",
+    "gulp-autoprefixer": "3.1.0",
+    "gulp-changed": "1.3.0",
+    "gulp-concat": "2.6.0",
+    "gulp-imagemin": "2.4.0",
+    "gulp-minify-css": "1.2.2",
+    "gulp-strip-debug": "1.1.0",
+    "gulp-uglify": "1.5.1",
+    "gulp-util": "3.0.7"
+  }
+}
