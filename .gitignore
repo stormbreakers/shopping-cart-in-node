@@ -1,2 +1,10 @@
 /.idea
 /node_modules
+workspace.xml
+.name
+deployment.xml
+encodings.xml
+laravel-plugin.xml
+misc.xml
+modules.xml
+shopping_cart.iml
