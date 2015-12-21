@@ -22,6 +22,9 @@
     <link rel="stylesheet" href="../../assest/public/css/style.css">
     <link rel="stylesheet" href="../../assest/public/css/responsive.css">
 
+      <script type="text/javascript" src="../../assest/dist/vendor/angular.min.js"></script>
+      <script type="text/javascript" src="../../assest/dist/vendor/angular-route.min.js"></script>
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -91,9 +94,8 @@
         </div>
     </div> <!-- End site branding area -->
     
-    <div class="mainmenu-area" >
-        <ng-include src="'header'"></ng-include>
-        <div ng-view=""></div>
+    <div class="mainmenu-area" ng-include="'menu'">
+        
     </div> <!-- End mainmenu area -->
     
     <div class="slider-area">
@@ -553,8 +555,6 @@
 	<script type="text/javascript" src="../../assest/dist/vendor/script.slider.js"></script>
 
     <!--angular-->
-    <script type="text/javascript" src="../../assest/dist/vendor/angular.min.js"></script>
-    <script type="text/javascript" src="../../assest/dist/vendor/angular-route.min.js"></script>
     <script type="text/javascript" src="../../assest/dist/js/controllers/main.js"></script>
     <script type="text/javascript" src="../../assest/dist/js/app.js"></script>
   </body>

@@ -25,8 +25,8 @@ module.exports = function (app) {
         res.sendFile('app/views/single-product.html', { root: path.join(__dirname, '../../') }); // load the single view file (angular will handle the page changes on the front-end)
     });
 
-    app.get('/header', function (req, res) {
-        res.sendFile('app/views/header.html', { root: path.join(__dirname, '../../') }); // load the single view file (angular will handle the page changes on the front-end)
+    app.get('/menu', function (req, res) {
+        res.sendFile('app/views/menu.html', { root: path.join(__dirname, '../../') }); // load the single view file (angular will handle the page changes on the front-end)
     });
 
     //app.post('/api/login', function (req, res) {
