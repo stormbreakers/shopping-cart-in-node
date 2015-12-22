@@ -1,0 +1,24 @@
+<div class="container" ng-controller="dctrl">
+    <div class="row">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul id="navigation" class="nav navbar-nav">
+                <li ng-class="{active: isActive('/')}" ng-click="select('/')"><a href="/">Home</a></li>
+                <li ng-class="{active: isActive('/Shop')}" ng-click="select('/Shop')"><a href="Shop">Shop page</a></li>
+                <li ng-class="{active: isActive('/Product')}" ng-click="select('/Product')"><a href="Product">Single product</a></li>
+                <li ng-class="{active: isActive('/Cart')}" ng-click="select('/Cart')"><a href="Cart">Cart</a></li>
+                <li ng-class="{active: isActive('/Checkout')}" ng-click="select('/Checkout')"><a href="Checkout">Checkout</a></li>
+                <li ng-class="{active: isActive('/Category')}" ng-click="select('/Category')"><a href="#">Category</a></li>
+                <li ng-class="{active: isActive('/Others')}" ng-click="select('/Others')"><a href="#">Others</a></li>
+                <li ng-class="{active: isActive('/Contact')}" ng-click="select('/Contact')"><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
